@@ -3,12 +3,14 @@
 // import AdminInfo from "./components/AdminInfo";
 // import UserInfo from "./components/UserInfo";
 // import type { adminInfo, Info } from "./types";
-// import Counter from "./components/Counter";
-import Todo from "./components/Todo";
+import Counter from "./components/Counter";
+// import Todo from "./components/Todo";
 // import UserProfile from "./components/UserProfile";
 
-const App = () => {
+// import Form from "./components/Form";
+// import FocusInput from "./FocusInput";
 
+const App = () => {
   // const user:Info = {
   //   id: 1,
   //   name:"john",
@@ -26,18 +28,19 @@ const App = () => {
 
   return (
     <div>
-       {/* <User name="Nayon" age= {20} isStudent= {true} /> */}
-       {/* <Button label= "Click me" onClick = {()=>alert("Clicked")} disabled = {false} />
+      {/* <User name="Nayon" age= {20} isStudent= {true} /> */}
+      {/* <Button label= "Click me" onClick = {()=>alert("Clicked")} disabled = {false} />
        <Button label= "Click me" onClick = {()=>alert("Clicked")} disabled = {true} /> */}
 
       {/* <UserInfo user={user} />
       <AdminInfo admin= {admin} /> */}
 
-      {/* <Counter /> */}
+      <Counter />
       {/* <UserProfile /> */}
-      <Todo />
-
+      {/* <Todo /> */}
+      {/* <Form/> */}
+      {/* <FocusInput /> */}
     </div>
-  )
-}
+  );
+};
 export default App;
