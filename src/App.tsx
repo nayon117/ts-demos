@@ -1,24 +1,28 @@
 // import Button from "./components/Button";
 // import User from "./components/User";
-
-import AdminInfo from "./components/AdminInfo";
-import UserInfo from "./components/UserInfo";
-import type { adminInfo, Info } from "./types";
+// import AdminInfo from "./components/AdminInfo";
+// import UserInfo from "./components/UserInfo";
+// import type { adminInfo, Info } from "./types";
+// import Counter from "./components/Counter";
+import Todo from "./components/Todo";
+// import UserProfile from "./components/UserProfile";
 
 const App = () => {
 
-  const user:Info = {
-    id: 1,
-    name:"john",
-    email:"john@gmail.com"
-  }
+  // const user:Info = {
+  //   id: 1,
+  //   name:"john",
+  //   email:"john@gmail.com",
+  //   location: ['Bd', 'Ban']
+  // }
 
-  const admin:adminInfo = {
-    id: 2,
-    name:"smith",
-    email:"smith@gmail.com",
-    role:"admin"
-  }
+  // const admin:adminInfo = {
+  //   id: 2,
+  //   name:"smith",
+  //   email:"smith@gmail.com",
+  //   location:["USA","UK"],
+  //   role:"admin"
+  // }
 
   return (
     <div>
@@ -26,8 +30,12 @@ const App = () => {
        {/* <Button label= "Click me" onClick = {()=>alert("Clicked")} disabled = {false} />
        <Button label= "Click me" onClick = {()=>alert("Clicked")} disabled = {true} /> */}
 
-      <UserInfo user={user} />
-      <AdminInfo admin= {admin} />
+      {/* <UserInfo user={user} />
+      <AdminInfo admin= {admin} /> */}
+
+      {/* <Counter /> */}
+      {/* <UserProfile /> */}
+      <Todo />
 
     </div>
   )

@@ -7,10 +7,11 @@ interface AdminInfoProps {
 const AdminInfo = ({admin}:AdminInfoProps) => {
   return (
     <div className=''>
-        Welcome to AdminInfo
+        Welcome to AdminInfo😁
         <p>{admin.id}</p>
         <p>{admin.name}</p>
         <p>{admin.email}</p>
+        <p>{admin.location}</p>
         <p>{admin.role}</p>
     </div>
   )

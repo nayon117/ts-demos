@@ -11,6 +11,7 @@ const UserInfo = ({user}:userInfo) => {
         <p>{user.id}</p>
         <p>{user.name}</p>
         <p>{user.email}</p>
+        <p>{user.location}</p>
     </div>
   )
 }
